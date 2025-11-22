@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+body{
+    font-family: 'Ubuntu', Arial;
+    background-color: rgb(58, 58, 58);
+    color: rgb(189, 188, 188);
+    text-shadow: 1px 1px 2px black;
+}
+#contendor-asignaturas{
+   display: flex;
+    justify-content: flex-start; /* izquierda a derecha */
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;              /* permite bajar a la siguiente línea */
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;                /* opcional: evita que el borde provoque overflow */
+    overflow-x: hidden; 
+}
+
+article{
+   
+    display:inline-flex;
+    flex-direction: column;
+    padding: 0 10px;
+    
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 4px;
+    border-color: rgba(0, 0, 0, 0.571);
+
+    flex: 0 0 auto;
+}
+
+article h3{
+    text-transform: uppercase;
+    text-align: center;
+
+    border-bottom-style:groove;
+    border-bottom-width:6px;
+    border-color: rgba(0, 0, 0, 0.171);  
+
+    padding-bottom: 5px;
+    width:100%;;
+}
+article li{
+    line-height: 1.5;
+    width: fit-content;
+}
+article a{
+    text-decoration: none;
+    color: black
+}
+
+#BBDD{
+    background-color:rgba(0, 255, 255, 0.458);
+}
+#PRGC{
+    background-color:rgba(250, 2, 101, 0.458);
+}
+#LGMI{
+    background-color: rgba(223, 44, 205, 0.621);
+}
+article li:hover{
+    transform: translateX(5px);
+}
+header{
+    text-align: center;
+}
