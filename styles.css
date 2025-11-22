@@ -47,6 +47,7 @@ article li{
     width: fit-content;
 }
 article a{
+    text-shadow: 1px 1px 2px rgb(51, 50, 50);
     text-decoration: none;
     color: black
 }
@@ -60,7 +61,17 @@ article a{
 #LGMI{
     background-color: rgba(223, 44, 205, 0.621);
 }
+#FOL{
+    background-color:rgba(2, 250, 81, 0.458)
+}
+#SI{
+    background-color:rgba(228, 255, 52, 0.581)
+}
+#EEDD{
+    background-color:rgba(234, 126, 2, 0.692)
+}
 article li:hover{
+    transition: 500ms;
     transform: translateX(5px);
 }
 header{
